@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-printf("hello\nhello world\nfirst c programing\n");
+printf("with\nproper\ngrammar\n");
 return (0);
 }
