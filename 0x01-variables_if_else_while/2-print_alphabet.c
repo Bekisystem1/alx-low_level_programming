@@ -10,7 +10,6 @@ char c = 97;
 while (c < 123)
 {
 putchar(c);
-putchar('\n');
 c = c + 1;
 }
 return (0);
