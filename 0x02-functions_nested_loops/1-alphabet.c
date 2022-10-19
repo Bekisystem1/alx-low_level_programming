@@ -5,18 +5,18 @@
      * Return: Always 0 (success)
       */
 #include "main.h"
-void print_lowercase(void);
+void print_alphabet(void);
 int main(void)
 {
-	print_lowercase();
+	print_alphabet();
 	putchar('\n');
 	return (0);
 }
 /**
-   * print_lowercase - Print lowercase letters
+   * print_alphabet - Print lowercase letters
     *
      */
-void print_lowercase(void)
+void print_alphabet(void)
 {
 	char c;
 
