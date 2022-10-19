@@ -5,6 +5,10 @@
      * Return: Always 0 (success)
       */
 #include "main.h"
+/**
+    * @ch: The string to be printed
+     */
+void printString(char *ch);
 int main(void)
 {
 	printString("_putchar");
@@ -20,8 +24,8 @@ void printString(char *ch)
 {
 while (*ch != '\0')
 {
-	putchar(*ch); /* print letter */
-	ch = ch + 1;  /* point to the next letter.*/
+	putchar(*ch);
+	ch = ch + 1;
 }
 }
 
