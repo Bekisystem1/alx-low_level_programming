@@ -13,11 +13,11 @@ void print_most_numbers(void)
 		{
 			if (i / 10 != 0)
 			{
-				putchar(i / 10 + '0');
+				_putchar(i / 10 + '0');
 			}
-			putchar(i % 10 + '0');
+			_putchar(i % 10 + '0');
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
 
